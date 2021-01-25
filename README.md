@@ -1,4 +1,11 @@
-### Hi there 👋
+---
+title: Default Readme
+date: '2020-14-05'
+spoiler: Default Readme Template
+categories: ["default", "all-profile"]
+githubUsername: 'reifjulian'
+---
+Welcome to my GitHub profile
 
 <!--
 **reifjulian/reifjulian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
