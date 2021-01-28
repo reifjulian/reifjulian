@@ -1,25 +1,11 @@
-# Comments here
-title: Julian Reif
-email: jreif@illinois.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  
-twitter_username: julianreif
-github_username: reifjulian
-minimal_mistakes_skin: contrast # dirt # air # default
-search: false
-repository: reifjulian/reifjulian.github.io
 
-# Build settings
-markdown: kramdown
+title: Documentation
+
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-#paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+minimal_mistakes_skin: contrast 
 
-include:
-  - _pages
+#include:
+#  - _pages
 
 
 # Plugins (previously gems:)
@@ -31,20 +17,9 @@ plugins:
   - jekyll-include-cache
 
 
-footer:
-  links:
-
-
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
       layout: "splash"
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
